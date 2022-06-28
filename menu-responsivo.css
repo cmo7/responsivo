@@ -20,11 +20,10 @@ ul a {
     color: black;
 }
 
-@media (width > 800px) {
+@media (min-width: 800px) {
     ul {
         flex-direction: row;
     }
-
     ul li {
         margin: 0 5px;
     }
